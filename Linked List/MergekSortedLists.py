@@ -10,7 +10,6 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-# https://medium.com/tech-life-fun/leetcode-23-merge-k-sorted-lists-graphically-explained-python3-solution-d0e77419956c
 
 
 # About heapq
