@@ -50,6 +50,6 @@ class Solution:
         # Get the maximum path sum for left and right
         left, right = self.helper(root.left), self.helper(root.right)
         # Then update the class answer if sum of the current path is greater than the previous one.
-        self.ans = max(self.ans, root.val + left + right)
+        self.ans = max(self.ans, root.val + left + right) # Only will be kept if the current root is used as the root of the final path
         # Finally, return the maximum path sum for the current root
         return max(root.val + max(left, right), 0)  #In this case we can either go left or right
